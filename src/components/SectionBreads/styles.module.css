@@ -1,0 +1,19 @@
+.root {
+    padding-bottom: 30px;
+}
+.hiddenStyle {
+    max-height: 554px;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 3rem;
+    padding: 15px 0;
+   background-color: ghostwhite;
+}
+
+.list {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}

@@ -1,0 +1,97 @@
+/* noto-sans-regular - latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('./fonts/noto-sans-v27-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('./fonts/noto-sans-v27-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-italic - latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local(''),
+    url('./fonts/noto-sans-v27-latin-italic.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('./fonts/noto-sans-v27-latin-italic.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-700 - latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+    url('./fonts/noto-sans-v27-latin-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('./fonts/noto-sans-v27-latin-700.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* rochester-regular - latin */
+@font-face {
+  font-family: 'Rochester';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('./fonts/rochester-v18-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('./fonts/rochester-v18-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+:root {
+  --Linen: #f8e8d8;
+  --WaikawaGray: #616E9A;
+  --Nugget: #CB9821;
+  --Cedar: #73301c;
+  --IndianRed: #7c4231;
+  --MexicanRed: #ef717a;
+  --BlueWhale: #032A49;
+  --Porsche: #eaab66;
+  --Tacao:#EFB38B;
+  --Violet: #0B0F3A;
+  --Cranberry: #DB6885;
+  --Turbo: #fff000;
+  --MandysPink:#F1CDAA;
+  --DesertStorm: #F3F3F1;
+
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: var(--Linen);
+  font-size: 1.7rem;
+  font-family: 'Noto Sans', 'Oswald', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#root {
+  height: 100%;
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+button{
+  font-family: 'Noto Sans';
+}

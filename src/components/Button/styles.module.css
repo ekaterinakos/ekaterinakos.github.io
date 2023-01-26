@@ -1,0 +1,26 @@
+.root {
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid var(--MexicanRed);
+    color:var(--Cedar) ;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 4px;
+    padding: 12px 40px;
+    font-size: 1.4rem;
+}
+.dark {
+    background-color: var(--BlueWhale);
+    color: var(--Turbo);
+    border: none;
+}
+.root:hover{
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    background-color: var(--MexicanRed);
+    color: var(--Linen);
+}
+.root:active{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px inset ;
+}
+

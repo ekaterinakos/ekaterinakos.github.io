@@ -1,0 +1,107 @@
+.root {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    text-align: center;
+    padding: 40px 30px;
+    background-color: var(--IndianRed);
+    color: ghostwhite;
+}
+
+.contacts {
+    padding: 15px 50px;
+    font-family: monospace;
+    font-size: 1.6rem;
+    border-radius: 6px;
+    background: url(./img/contacts_bg.jpg) center no-repeat;
+    background-size: cover;
+    order: -1;
+
+}
+
+.contacts p:first-child {
+    font-family: 'Noto Sans';
+    color: var(--Cedar);
+}
+
+.contacts span {
+    font-family: 'Rochester';
+    color: var(--Cranberry);
+}
+.contactForm button{
+    background-color: ghostwhite;
+    color: inherit;
+}
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+    position: relative;
+    justify-content: space-between;
+}
+.dark {
+    background-color: var(--BlueWhale);
+}
+
+.form {
+    display: flex;
+    border-bottom: 2px solid ghostwhite;
+}
+
+.input {
+    display: block;
+    width: 200px;
+    height: 30px;
+}
+
+.input::placeholder {
+    color: ghostwhite;
+}
+
+.buttonSubscribe {
+    width: 130px;
+    height: 30px;
+    border: none;
+    text-transform: lowercase;
+    text-align: right;
+    background-color: transparent;
+    box-shadow: none;
+    color: ghostwhite;
+}
+
+.buttonSubscribe:active, .buttonSubscribe:hover {
+    box-shadow: none;
+    color: var(--Cedar);
+}
+.copyright >div{
+    margin: 0;
+}
+
+
+@media(max-width: 767px) {
+    .linkLogo {
+        display: none;
+    }
+
+    .socialIcons {
+        margin: 30px 0 10px 0;
+        
+    }
+}
+
+@media(max-width: 767px) {
+    .root {
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .inputSubscribe{
+        padding: 20px 0;
+        margin: 30px 0;
+        border-top: 1px solid var(--MexicanRed);
+        border-bottom: 1px solid var(--MexicanRed);
+    }
+}

@@ -1,0 +1,19 @@
+    .root{
+    display: flex;
+    margin-bottom: 15px;
+    }
+    .icon {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border: 1px solid var(--MexicanRed);
+        background-color: var(--Linen);
+        border-radius: 30px;
+        text-align: center;
+        padding-top: 8px;
+    }
+    .icon:not(:last-child){
+        margin-right: 20px;
+    }
+  
+   

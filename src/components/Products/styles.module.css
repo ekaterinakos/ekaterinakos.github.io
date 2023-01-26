@@ -1,0 +1,28 @@
+.root {
+    margin: 20px auto;
+    max-width: 1400px;
+}
+
+.list {
+    display: flex;
+    text-align: center;
+}
+
+.item {
+    margin: 15px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    background-color: ghostwhite;
+    border-radius: 8px;
+
+}
+
+.item img {
+    width: 300px;
+    overflow: hidden;
+    border-radius: 9px;
+}
+
+.item aside {
+    display: none;
+}

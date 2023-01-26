@@ -1,0 +1,26 @@
+.root {
+    padding-bottom: 30px;
+}
+.button {
+    padding: 10px 17px;
+    font-weight: 700;
+}
+.hiddenStyle {
+    max-height: 554px;
+    overflow: hidden;
+}
+.hiddenStyleButton {
+    transform: rotate(180deg);
+}
+.title {
+    font-size: 3rem;
+    padding: 15px 0;
+    background-color: ghostwhite;
+    color: #ca7c53;
+}
+
+.list {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}

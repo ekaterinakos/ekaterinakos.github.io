@@ -1,0 +1,42 @@
+.root {
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    height: 80px;
+    background: linear-gradient(180deg, #7C4231 0%, rgba(124, 66, 49, 0.66) 108.07%);
+    z-index: 100;
+    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.20);
+}
+
+.root a {
+    color: ghostwhite
+}
+
+.sticky {
+    animation: smoothScroll 1s forwards ease;
+    background-color: var(--IndianRed);
+}
+
+@keyframes smoothScroll {
+    0% {
+        transform: translateY(-75px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.dark {
+    background-color: var(--BlueWhale);
+}
+
+@media screen and (max-width: 767px) {
+    .flex {
+        flex-direction: column;
+    }
+}

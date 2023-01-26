@@ -1,0 +1,27 @@
+.root{
+    position: relative;
+}
+.navItem {
+    margin-right: 15px;
+}
+.button {
+    color: var(--Linen);
+    border: none;
+}
+.link{
+    position: relative;
+}
+.count{
+    display: block;
+    position: absolute;
+    text-align: center;
+    left: 10px;
+    top: -3px;
+    z-index: 100;
+    width: 25px;
+    height: auto;
+    border-radius: 50%;
+    background-color: var(--Linen);
+    color: var(--IndianRed);
+    font-weight: 700;
+}

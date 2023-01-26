@@ -1,0 +1,16 @@
+.root{
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.text{
+    margin-bottom: 40px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}

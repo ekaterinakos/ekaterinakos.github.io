@@ -1,0 +1,138 @@
+.list {
+    display: flex;
+    flex-wrap: nowrap;
+    text-transform: capitalize;
+    font-size: 1.9rem;
+}
+
+.active {
+    border-bottom: 2px solid ghostwhite;
+    cursor: default;
+}
+
+.nav button {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+}
+
+.nav button:active,
+.nav button:hover {
+    box-shadow: none;
+    background-color: transparent;
+
+}
+
+.toggleButton {
+    position: absolute;
+    top: 28px;
+    left: 62px;
+    display: block;
+    z-index: 100;
+    width: 30px;
+    height: 30px;
+    padding: 25px;
+
+}
+
+@media screen and (min-width: 768px) {
+    .toggleButton {
+        display: none;
+    }
+
+    .list li {
+        margin-right: 40px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .navClosed .list {
+        display: none;
+    }
+
+    .navOpen {
+        justify-self: start;
+    }
+
+    .navOpen .list {
+        display: block;
+        position: absolute;
+        height: 40vh;
+        background: var(--IndianRed);
+        top: 61px;
+        width: 100%;
+        text-align: center;
+        box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.2);
+        animation: smoothScroll 0.5s forwards;
+    }
+
+
+    .navOpen .list.dark {
+        background-color: var(--BlueWhale);
+    }
+
+    @keyframes smoothScroll {
+        0% {
+            transform: translateY(-85px);
+            opacity: 0;
+        }
+
+        50% {
+
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+
+    .navOpen .list li {
+        margin: 35px 0;
+    }
+}
+
+
+.navClosed .toggleButton::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: -2px;
+    width: 32px;
+    height: 2px;
+    background-color: ghostwhite;
+    border-radius: 30px;
+    box-shadow: 0 8px 0 ghostwhite, 0 16px 0 ghostwhite;
+}
+
+.navClosed .toggleButton:active::before {
+    background-color: rgb(228, 228, 235);
+    box-shadow: 0 8px 0 rgb(228, 228, 235), 0 16px 0 rgb(228, 228, 235);
+}
+
+.navOpen .toggleButton::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -2px;
+    width: 30px;
+    height: 2px;
+    transform: rotate(45deg);
+    background-color: ghostwhite;
+    border-radius: 30px;
+}
+
+.navOpen .toggleButton::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -2px;
+    width: 30px;
+    height: 2px;
+    transform: rotate(-45deg);
+    background-color: ghostwhite;
+    border-radius: 30px;
+}

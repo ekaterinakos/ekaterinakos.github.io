@@ -1,0 +1,63 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    color: var(--Cedar);
+
+}
+
+.root ul,
+li,
+a {
+    padding: 0;
+    color: var(--Cedar);
+    text-decoration: none;
+    list-style: none;
+}
+.root input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.root input {
+    outline: none;
+    border: none;
+    background-image: none;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    /* font-family: 'Noto Sans'; */
+    font-size: 1em;
+    color: var(--Linen);
+}
+.root input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px var(--Linen) inset !important;
+}
+
+.button {
+    margin-right: auto;
+    margin-top: 100px;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    right: 0;
+
+}
+
+
+.content {
+    flex: 1 1 auto;
+
+}
+.dark {
+    background-color: var(--WaikawaGray);
+}
+@media screen and (max-width:767px) {
+    .button {
+        margin-top: 12px;
+    }
+}
