@@ -69,8 +69,8 @@ export const ReviewForm = ({ className }) => {
   return (
     <>
       <Modal active={modal} setActive={setModal}>
-        <fieldset className={classnames(className, styles.root)}>
-          <form  className={styles.form}>
+        <fieldset className={classnames(styles.root)}>
+          <form className={styles.form}>
             <div className={styles.inputWrapper}>
               <input
                 value={value.name}
@@ -127,7 +127,10 @@ export const ReviewForm = ({ className }) => {
           </form>
         </fieldset>
       </Modal>
-      <Button className={styles.button} onClick={setModal}>
+      <Button
+        className={classnames(className, styles.button)}
+        onClick={setModal}
+      >
         {'your review'}
       </Button>
     </>

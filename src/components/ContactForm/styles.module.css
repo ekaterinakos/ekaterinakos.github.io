@@ -7,7 +7,6 @@
     padding: 10px;
 }
 
-
 .form input {
     margin-bottom: 10px;
     padding: 5px;
@@ -28,9 +27,11 @@
 .inputWrapper>div {
     margin-right: 10px;
 }
+
 .textarea::-webkit-scrollbar {
     display: none;
 }
+
 .textarea {
     width: 100%;
     height: 30px;
@@ -41,11 +42,15 @@
     background-color: transparent;
     overflow: scroll;
     outline: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+
 .buttonSand {
     border: 1px solid var(--Cedar);
     box-shadow: none;
 }
+
 .button {
     width: 100%;
         background-color: var(--Linen);

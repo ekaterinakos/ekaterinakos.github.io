@@ -18,24 +18,23 @@ export const Reviews = () => {
 
   return (
     <section className={styles.root}>
-      <div className={styles.carouselInner}>
-        <ul style={transformStyle} className={styles.list}>
-          {reviewIds.map((reviewId) => (
-            <li className={styles.item} key={reviewId}>
-              <Review reviewId={reviewId} />
-            </li>
-          ))}
-        </ul>
-      </div>
-      <div className={styles.buttonConteiner}>
-        {' '}
+      <div className={styles.carouselConteiner}>
+        <div className={styles.carouselInner}>
+          <ul style={transformStyle} className={styles.list}>
+            {reviewIds.map((reviewId) => (
+              <li className={styles.item} key={reviewId}>
+                <Review reviewId={reviewId} />
+              </li>
+            ))}
+          </ul>
+        </div>
+        <ReviewForm className={styles.reviewButton} />
         <Button
           onClick={leftTranslate}
           className={classnames(styles.buttonCarousel, styles.buttonLeft)}
         >
           {'<'}
         </Button>
-        <ReviewForm className={styles.reviewButton} />
         <Button
           onClick={rightTranslate}
           className={classnames(styles.buttonCarousel, styles.buttonRight)}
