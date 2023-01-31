@@ -32,7 +32,7 @@
 }
 
 .dark {
-    background-color: var(--BlueWhale);
+    background: var(--BlueWhale);
 }
 
 @media screen and (max-width: 767px) {

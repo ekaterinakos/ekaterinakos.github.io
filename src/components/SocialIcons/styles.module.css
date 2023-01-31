@@ -1,6 +1,5 @@
     .root{
     display: flex;
-    margin-bottom: 15px;
     }
     .icon {
         display: inline-block;
@@ -8,12 +7,16 @@
         height: 40px;
         border: 1px solid var(--MexicanRed);
         background-color: var(--Linen);
-        border-radius: 30px;
+        border-radius: 9px;
         text-align: center;
         padding-top: 8px;
+        padding-bottom: 8px;
+    
     }
     .icon:not(:last-child){
         margin-right: 20px;
     }
   
-   
+   .icon:hover{
+    fill: var(--Cedar);
+   }

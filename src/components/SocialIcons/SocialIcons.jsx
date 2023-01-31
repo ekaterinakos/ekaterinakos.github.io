@@ -1,24 +1,15 @@
 import React from 'react';
-import { SocialIcon } from '../SocialIcon/SocialIcon';
-import Vk from './img/vk.svg';
-import Facebook from './img/facebook.svg';
-import Insta from './img/insta.svg';
 import styles from './styles.module.css'
 import classnames from 'classnames';
+import { Svg } from '../Svg/Svg';
 
 export const SocialIcons = ({className}) => {
-  const icon = [Vk, Facebook, Insta];
+
   return (
     <div className={classnames(styles.root, className)}>
-      {icon.map((item, index) => (
-        <SocialIcon
-          className={styles.icon}
-          key={index}
-          img={item}
-          text="social icon"
-          link={'./'}
-        />
-      ))}
+      <Svg className={styles.icon} icon="facebook" width={13} fill="#cd5c5c" />
+      <Svg className={styles.icon} icon="vk" width={8} fill="#cd5c5c" />
+      <Svg className={styles.icon} icon="insta" width={10} fill="#cd5c5c" />
     </div>
   );
 };
