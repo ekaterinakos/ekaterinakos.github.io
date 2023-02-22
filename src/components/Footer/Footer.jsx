@@ -1,25 +1,26 @@
-import { Contacts } from "../Contacts/Contacts";
+import { Contacts } from '../Contacts/Contacts';
 import { ReactComponent as Logo } from './img/logo.svg';
 import { SocialIcons } from '../SocialIcons/SocialIcons';
 import styles from './styles.module.css';
 import { Link } from 'react-router-dom';
 import classnames from 'classnames';
-import { Button } from "../Button/Button";
-import { useContext } from "react";
-import { ThemeContext } from "../ThemeContextProvider/ThemeContext";
+import { Button } from '../Button/Button';
+import { useContext } from 'react';
+import { ThemeContext } from '../ThemeContextProvider/ThemeContext';
 import { ContactForm } from '../ContactForm/ContactForm';
 
 export const Footer = () => {
-const {theme} = useContext(ThemeContext)
+  const { theme } = useContext(ThemeContext);
 
-    return (
-      <footer
-        className={classnames(
-          styles.root,
-          theme === 'default' ? styles.dark : 'default'
-        )}
-      >
-        <div className={styles.conteiner}>
+  return (
+    <footer
+      className={classnames(
+        styles.root,
+        theme === 'default' ? styles.dark : 'default'
+      )}
+    >
+      <div className={styles.conteiner}>
+        <div className={styles.itemsConteiner}>
           <section>
             <Contacts className={classnames(styles.contacts)} />
           </section>
@@ -38,8 +39,10 @@ const {theme} = useContext(ThemeContext)
               <Button className={styles.buttonSubscribe}>{'send >'}</Button>
             </form>
           </section>
+        </div>
 
-          <div>
+        <div className={styles.itemsConteiner}>
+          <div className={styles.iconsConteiner}>
             <SocialIcons className={styles.socialIcons} />
             <ContactForm className={styles.contactForm} />
           </div>
@@ -56,6 +59,7 @@ const {theme} = useContext(ThemeContext)
             </div>
           </section>
         </div>
-      </footer>
-    );
-}
+      </div>
+    </footer>
+  );
+};

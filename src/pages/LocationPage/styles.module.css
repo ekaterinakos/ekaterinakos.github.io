@@ -3,6 +3,7 @@
     text-align: center;
     background: url(./img/wordMap.webp) center no-repeat;
     background-size: contain;
+    margin: 70px auto 0 auto;
 }
 .containerStyle {
     width: 100%;
@@ -15,18 +16,39 @@
 .wrapper {
     display: flex;
     flex-wrap: wrap;
-    max-width: 700px;
-    margin: 30px auto;
+    max-width: 900px;
+    margin: 50px auto;
     text-align: left;
     justify-content: space-evenly;
 }
 .img{
     width: 100%;
+    border-radius: 2px;
 }
 .imgWrapper{
 max-width: 300px;
 }
-
+caption{
+    margin: 0 2px 0 2px;
+    background-color: rgba(195, 180, 180, 0.629);
+}
+.tableWrapper{
+    display: flex;
+    flex-direction: column;
+}
+.tableWrapper p{
+    margin: 0;
+    margin: 0 2px 0 2px;
+   padding: 20px 2px;
+   font-size: 1.8rem;
+    background-color: rgba(195, 180, 180, 0.629);
+}
+.table{
+    flex-basis: 70%;
+}
+.table td{
+    padding-left: 5px;
+}
 .table tr:last-child {
     background-color: rgba(237, 124, 124, 0.629);
 }
@@ -35,4 +57,12 @@ max-width: 300px;
 }
 .table tr td:first-child {
     color: red;
+}
+@media screen and (max-width: 767px) {
+    
+.imgWrapper {
+    margin-top: 30px;
+        max-width: 420px;
+    }
+
 }

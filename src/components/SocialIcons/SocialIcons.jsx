@@ -7,9 +7,9 @@ export const SocialIcons = ({className}) => {
 
   return (
     <div className={classnames(styles.root, className)}>
-      <Svg className={styles.icon} icon="facebook" width={13} fill="#cd5c5c" />
-      <Svg className={styles.icon} icon="vk" width={8} fill="#cd5c5c" />
-      <Svg className={styles.icon} icon="insta" width={10} fill="#cd5c5c" />
+      <Svg className={styles.icon} icon="facebook" fill="#cd5c5c" />
+      <Svg className={styles.icon} icon="vk"  fill="#cd5c5c" />
+      <Svg className={styles.icon} icon="insta" fill="#cd5c5c" />
     </div>
   );
 };

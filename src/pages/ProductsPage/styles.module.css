@@ -1,6 +1,6 @@
 .root {
     text-align: center;
-    margin: 0 auto;
+    margin: 60px auto;
 }
 
 .root h2 {
@@ -11,10 +11,11 @@
 
 }
 
-.list {
+.root .list {
     flex-wrap: wrap;
     justify-content: center;
     border-top: 2px solid var(--MexicanRed);
+    padding-top: 20px;
     /* display: grid;
     grid-template-columns:repeat(3, calc(33.3333% ));
     text-align: center; */
