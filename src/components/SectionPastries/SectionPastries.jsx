@@ -9,18 +9,22 @@ import { Button } from '../Button/Button';
 
 export const SectionPastries = () => {
   const bakeProductsId = useSelector(selectBakes);
-  const [hidden, setHidden] = useState(true);
+  const [fullSize, setfullSize] = useState(false);
 
   return (
     <section className={styles.root}>
       <h2 className={styles.title}>Pastries</h2>
       <Products
-        className={classnames(styles.list, { [styles.hiddenStyle]: hidden })}
+        className={classnames(styles.list, {
+          [styles.fullSizeStyle]: fullSize,
+        })}
         productId={bakeProductsId}
       />
       <Button
-        onClick={() => setHidden(!hidden)}
-        className={classnames(styles.button,{ [styles.hiddenStyleButton]: !hidden })}
+        className={classnames(styles.button, {
+          [styles.fullSizeStyleButton]: fullSize,
+        })}
+        onClick={() => setfullSize(!fullSize)}
       >
         {'V'}
       </Button>

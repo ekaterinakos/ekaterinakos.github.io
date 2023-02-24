@@ -3,8 +3,6 @@ import classnames from 'classnames';
 import styles from './styles.module.css';
 import { useSelector } from 'react-redux';
 import {
-  selectId,
-  selectKeys,
   selectNewProducts,
   selectNewProductsLength,
 } from '../../store/category/selectors';

@@ -9,7 +9,8 @@
     padding: 12px 40px;
     font-size: 1.4rem;
     transition-duration: .3s;
-    transition-property: color, background-color, box-shadow;
+    transition-timing-function: linear;
+    transition-property: color, box-shadow, transform;
 }
 .dark {
     background-color: var(--BlueWhale);

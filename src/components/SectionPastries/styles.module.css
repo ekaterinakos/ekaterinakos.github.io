@@ -1,15 +1,29 @@
 .root {
     padding-bottom: 30px;
 }
+.root .list {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    max-height: 554px;
+    overflow: hidden;
+    transition: all 1s ease-out;
+}
+
 .button {
     padding: 10px 17px;
     font-weight: 700;
 }
-.hiddenStyle {
-    max-height: 554px;
-    overflow: hidden;
+
+.button:active {
+    transform: rotate(180deg);
 }
-.hiddenStyleButton {
+
+.list.fullSizeStyle {
+    max-height: 1090px;
+}
+
+.fullSizeStyleButton {
     transform: rotate(180deg);
 }
 .title {
@@ -17,10 +31,4 @@
     padding: 15px 0;
     background-color: ghostwhite;
     color: #ca7c53;
-}
-
-.list {
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 60px;
 }

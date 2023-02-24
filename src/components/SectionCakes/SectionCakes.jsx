@@ -9,18 +9,20 @@ import { useState } from 'react';
 
 export const SectionCakes = () => {
   const cakeProductId = useSelector(selectCakes);
-  const [hidden, setHidden] = useState(true);
+  const [fullSize, setfullSize] = useState(false);
 
   return (
     <section className={styles.root}>
       <h2 className={styles.title}>Cakes</h2>
       <Products
-        className={classnames(styles.list, { [styles.hiddenStyle]: hidden })}
+        className={classnames(styles.list, { [styles.fullSizeStyle]: fullSize })}
         productId={cakeProductId}
       />
       <Button
-        className={ classnames( styles.button ,{ [styles.hiddenStyleButton]: !hidden })}
-        onClick={() => setHidden(!hidden)}
+        className={classnames(styles.button, {
+          [styles.fullSizeStyleButton]: fullSize,
+        })}
+        onClick={() => setfullSize(!fullSize)}
       >
         {'V'}
       </Button>

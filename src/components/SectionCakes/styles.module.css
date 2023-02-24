@@ -1,17 +1,26 @@
 .root{
    padding-bottom: 30px;
 }
+.root .list {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    max-height: 554px;
+    overflow: hidden;
+    transition: all 1s ease-out;
+}
 .button{
     padding: 10px 17px;
     font-weight: 700;
 }
-.hiddenStyle {
-    max-height: 554px;
-    overflow: hidden;
-
+.button:active{
+    transform: rotate(180deg);
+}
+.list.fullSizeStyle {
+    max-height: 1090px;
 }
 
-.hiddenStyleButton{
+.fullSizeStyleButton{
     transform: rotate(180deg);
 }
 
@@ -23,9 +32,4 @@
     background-color: ghostwhite;
 }
 
-.list {
-    justify-content: center;
-    flex-wrap: wrap;
-    transition: all 1s ease;
-    margin-top: 60px;
-    }
+

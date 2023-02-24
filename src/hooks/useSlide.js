@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react';
 
-export const useSlide = (slideItemsLength, itemOffsetWidth, count = 2) => {
+export const useSlide = (slideItemsLength, itemOffsetWidth, count = 3) => {
   const [transform, setTransform] = useState(0);
 
   const transformStyle = {
