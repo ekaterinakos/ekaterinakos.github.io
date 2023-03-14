@@ -7,14 +7,17 @@
     margin-top: 60px;
     max-height: 554px;
     overflow: hidden;
-    transition: all 1s ease-out;
+    transition: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 .button {
     padding: 10px 17px;
     font-weight: 700;
 }
+.button:hover~.list {
 
+    will-change: all;
+}
 .button:active {
     transform: rotate(180deg);
 }

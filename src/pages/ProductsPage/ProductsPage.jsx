@@ -35,6 +35,8 @@ export const InputWithDebounce = ({
 };
 
 export const ProductsPage = () => {
+
+    
   // const productId = useSelector(selectCategoryIds);
   const [search, setSearch] = useSearchParams();
   const [active, setActive] = useState(false);
@@ -43,6 +45,7 @@ export const ProductsPage = () => {
       serachValue: search.get('productName') || '',
     })
   );
+
 
   return (
     <div className={classnames(styles.root)}>
