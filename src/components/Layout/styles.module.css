@@ -57,6 +57,6 @@ a {
 }
 @media screen and (max-width:767px) {
     .button {
-        margin-top: 12px;
+        margin-top: 20px;
     }
 }

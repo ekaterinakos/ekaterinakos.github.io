@@ -1,7 +1,6 @@
 .root {
     position: sticky;
     top: 0;
-    padding: 0 10rem;
     display: grid;
     grid-template-columns: auto auto;
     justify-items: center;
@@ -10,6 +9,7 @@
     height: 80px;
     background: #7C4231;
     z-index: 100;
+    padding: 0 10rem;
 }
 
 .root a {
@@ -37,6 +37,9 @@
 }
 
 @media screen and (max-width: 767px) {
+    .root{
+    padding: 0;
+    }
     .flex {
         flex-direction: column;
     }

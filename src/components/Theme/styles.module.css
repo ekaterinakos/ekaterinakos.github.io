@@ -1,5 +1,6 @@
 .root{
-        padding: 12px 12px;
+        padding: 12px;
+        box-shadow: none;
 }
 .sticky {
         animation: fadeScroll .5s forwards ease;
@@ -12,5 +13,10 @@
 
         100% {
                 transform: scaleY(0);
+        }
+}
+@media screen and (max-width: 767px) {
+        .root {
+                padding: 5px;
         }
 }
