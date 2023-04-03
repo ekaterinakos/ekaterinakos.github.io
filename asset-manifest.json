@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5db7a65a.css",
-    "main.js": "/static/js/main.0432e343.js",
+    "main.css": "/static/css/main.df7572bc.css",
+    "main.js": "/static/js/main.dbd0084f.js",
     "static/media/mapImg.png": "/static/media/mapImg.4080d8ad2333ce05d627.png",
     "static/media/blueSprinkleCake.jpg": "/static/media/blueSprinkleCake.810acf7f23f12b83c47a.jpg",
     "static/media/pinkSprinkleCake.jpg": "/static/media/pinkSprinkleCake.1919736735ccab9a7fde.jpg",
@@ -32,7 +32,7 @@
     "static/media/sweetBagel.jpg": "/static/media/sweetBagel.18496d0a2384fc262c39.jpg",
     "static/media/chocolateOrionCake.jpg": "/static/media/chocolateOrionCake.beb7358a3becefba2c3f.jpg",
     "static/media/ChocolateChipCookiesZoomIn.jpg": "/static/media/ChocolateChipCookiesZoomIn.5e3f8d8ab308fc6bde6e.jpg",
-    "static/media/mob.webp": "/static/media/mob.a9b78b1b077d765be446.webp",
+    "static/media/mob.webp": "/static/media/mob.4142d73a2ec7a76f6350.webp",
     "static/media/whiteHomeMadeChocolate.jpg": "/static/media/whiteHomeMadeChocolate.12a2af357ce702fdceb3.jpg",
     "static/media/desktop.webp": "/static/media/desktop.b768a24bbd280a15a40e.webp",
     "static/media/MilasCar.svg": "/static/media/MilasCar.f8f01d1003999b82f313b6d07033700c.svg",
@@ -59,11 +59,11 @@
     "static/media/sunmoon.svg": "/static/media/sunmoon.ba3badc56e10b9748f6e20a1196d939d.svg",
     "index.html": "/index.html",
     "static/media/star-gold.svg": "/static/media/star-gold.93fc61e02fdb3cb9ad90ccc2dcff13fe.svg",
-    "main.5db7a65a.css.map": "/static/css/main.5db7a65a.css.map",
-    "main.0432e343.js.map": "/static/js/main.0432e343.js.map"
+    "main.df7572bc.css.map": "/static/css/main.df7572bc.css.map",
+    "main.dbd0084f.js.map": "/static/js/main.dbd0084f.js.map"
   },
   "entrypoints": [
-    "static/css/main.5db7a65a.css",
-    "static/js/main.0432e343.js"
+    "static/css/main.df7572bc.css",
+    "static/js/main.dbd0084f.js"
   ]
 }
