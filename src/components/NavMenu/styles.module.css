@@ -59,7 +59,7 @@
     .navOpen .list {
         display: block;
         position: absolute;
-        height: 40vh;
+        height: 100vh;
         background: var(--IndianRed);
         top: 61px;
         width: 100%;

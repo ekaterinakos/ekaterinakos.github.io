@@ -1,6 +1,5 @@
 .root {
-
-    padding: 70px 20px;
+    padding: 5rem 10rem 9rem 10rem;
     background-color: var(--IndianRed);
     color: ghostwhite;
 
@@ -8,18 +7,22 @@
 .conteiner {
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-end;
     justify-content: center;
-    max-width: 1400px;
-    margin: 0 auto;
+    text-align: center;
+}
+.conteiner *{
+ margin: 2rem auto 0 auto;
 }
 .itemsConteiner{
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
     text-align: center;
+    margin: 0 auto;
 }
 .contacts {
-    padding: 15px 50px;
+    padding: 25px 60px;
     font-family: monospace;
     font-size: 1.6rem;
     border-radius: 6px;
@@ -60,6 +63,9 @@
 
 .input::placeholder {
     color: ghostwhite;
+}
+.inputSubscribe{
+    max-width: 360px;
 }
  .inputSubscribe p {
      margin: 40px auto;

@@ -1,8 +1,8 @@
 import React from "react";
 import classnames from 'classnames';
 import styles from './styles.module.css';
-import intorImg from './img/img.webp';
-import intorImgMobile from './img/imgMobile.webp';
+import intorImg from './img/desktop.webp';
+import intorImgMobile from './img/mob.webp';
 
 export const SectionHero = ({className}) => {
 

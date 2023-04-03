@@ -24,7 +24,7 @@ export const NavMenu = ({ className }) => {
   return (
     <nav
       ref={ref}
-      className={classnames(
+      className={classnames(className ,
         styles.nav,
         !open ? styles.navClosed : styles.navOpen
       )}

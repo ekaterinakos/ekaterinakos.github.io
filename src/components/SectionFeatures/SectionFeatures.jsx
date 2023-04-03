@@ -4,6 +4,7 @@ import classnames from 'classnames'
 import { ReactComponent as BreadIcon } from './img/iconBread.svg';
 import { ReactComponent as CakeIcon } from './img/iconCake.svg'
 import {ReactComponent as BakeIcon} from './img/iconBake.svg'
+import { ReactComponent as DesertIcon } from './img/iconDesert.svg';
 
 export const SectionFeatures = () => {
   return (
@@ -32,6 +33,14 @@ export const SectionFeatures = () => {
           </span>
           <p className={styles.text}>
             Only proven and tested <br /> recipes
+          </p>
+        </div>
+        <div className={styles.item}>
+          <span>
+            <DesertIcon />
+          </span>
+          <p className={styles.text}>
+            Large assortment of bakery <br /> and pastry products
           </p>
         </div>
       </div>

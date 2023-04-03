@@ -2,6 +2,7 @@
     position: relative;
 }
 .navItem {
+    justify-self: start;
     margin-right: 15px;
 }
 .button {
@@ -9,6 +10,7 @@
     border: none;
 }
 .link{
+    justify-self: end;
     position: relative;
 }
 .count{

@@ -22,7 +22,7 @@
 .title {
     font-size: 3rem;
     margin: 0;
-    padding: 15px 0;
+    padding: 25px 0;
     color: var(--Tacao);
     background-color: ghostwhite;
 }
@@ -30,7 +30,7 @@
     max-width: 1300px;
     margin: 0 auto;
     position: relative;
-    padding: 30px 10px;
+    padding: 60px 10px;
 }
 
 .buttonCarousel {

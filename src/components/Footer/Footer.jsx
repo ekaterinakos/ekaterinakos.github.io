@@ -20,7 +20,7 @@ export const Footer = () => {
       )}
     >
       <div className={styles.conteiner}>
-        <div className={styles.itemsConteiner}>
+    
           <section>
             <Contacts className={classnames(styles.contacts)} />
           </section>
@@ -39,9 +39,9 @@ export const Footer = () => {
               <Button className={styles.buttonSubscribe}>{'send >'}</Button>
             </form>
           </section>
-        </div>
+       
 
-        <div className={styles.itemsConteiner}>
+
           <div className={styles.iconsConteiner}>
             <SocialIcons className={styles.socialIcons} />
             <ContactForm className={styles.contactForm} />
@@ -59,7 +59,7 @@ export const Footer = () => {
             </div>
           </section>
         </div>
-      </div>
+
     </footer>
   );
 };

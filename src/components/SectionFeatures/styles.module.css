@@ -10,7 +10,7 @@
     font-weight: 700;
     letter-spacing: .5rem;
     margin: 0;
-    padding: 20px 0;
+    padding: 25px 0;
     color: var(--IndianRed);
     background-color: ghostwhite;
 
@@ -21,9 +21,8 @@
 .wrapper {
     display: flex;
   justify-content: space-around;
-    max-width: 1200px;
     margin: 0 auto;
-    padding: 60px 10px;
+    padding: 100px 10px;
     align-items: center;
 }
 .iconWrapper{
@@ -73,10 +72,28 @@
 .item:last-child{
     color: #ca7c53;
 }
+.item:nth-child(2)::before {
+    background-color: #cc3e28;
+}
+.item:nth-child(2) {
+    color: #ba3b00;
+}
+.item:nth-child(3)::before {
+    background-color: #fba47c;
+}
+
+.item:nth-child(3){
+    color: #f88955;
+}
 
 .item:hover::before {
     top: 0;
     left: 0;
+}
+@media screen and (min-width:1000px) {
+.item:nth-child(odd){
+    margin-top: 100px;
+}
 }
 @media screen and (max-width:1000px){
     .wrapper{
