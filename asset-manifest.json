@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f50eadf9.css",
-    "main.js": "/static/js/main.ec244f98.js",
+    "main.css": "/static/css/main.5db7a65a.css",
+    "main.js": "/static/js/main.0432e343.js",
     "static/media/mapImg.png": "/static/media/mapImg.4080d8ad2333ce05d627.png",
     "static/media/blueSprinkleCake.jpg": "/static/media/blueSprinkleCake.810acf7f23f12b83c47a.jpg",
     "static/media/pinkSprinkleCake.jpg": "/static/media/pinkSprinkleCake.1919736735ccab9a7fde.jpg",
@@ -20,10 +20,8 @@
     "static/media/chocChipsCookies.jpg": "/static/media/chocChipsCookies.cde0730b44272647451d.jpg",
     "static/media/maltedLoaf.jpg": "/static/media/maltedLoaf.6e86f6c581b4e9ece618.jpg",
     "static/media/truffleswithAlmond.jpg": "/static/media/truffleswithAlmond.3112490d8bdfa7646f57.jpg",
-    "static/media/imgMobile.webp": "/static/media/imgMobile.265154d0436a86763953.webp",
     "static/media/wholemealLoaf.jpg": "/static/media/wholemealLoaf.c574fabb40c8d386f264.jpg",
     "static/media/ChocolateChipCookiesOrange.jpg": "/static/media/ChocolateChipCookiesOrange.f0e4ef7058ded882f876.jpg",
-    "static/media/img.webp": "/static/media/img.3f075a8f3093c8c801d2.webp",
     "static/media/birthdayCake.jpg": "/static/media/birthdayCake.e25e0917fa3830023f90.jpg",
     "static/media/candyMix.jpg": "/static/media/candyMix.1d356a7c88ceb109ab58.jpg",
     "static/media/armenianGata.jpg": "/static/media/armenianGata.d806da3dd9344c14af2b.jpg",
@@ -34,7 +32,9 @@
     "static/media/sweetBagel.jpg": "/static/media/sweetBagel.18496d0a2384fc262c39.jpg",
     "static/media/chocolateOrionCake.jpg": "/static/media/chocolateOrionCake.beb7358a3becefba2c3f.jpg",
     "static/media/ChocolateChipCookiesZoomIn.jpg": "/static/media/ChocolateChipCookiesZoomIn.5e3f8d8ab308fc6bde6e.jpg",
+    "static/media/mob.webp": "/static/media/mob.a9b78b1b077d765be446.webp",
     "static/media/whiteHomeMadeChocolate.jpg": "/static/media/whiteHomeMadeChocolate.12a2af357ce702fdceb3.jpg",
+    "static/media/desktop.webp": "/static/media/desktop.b768a24bbd280a15a40e.webp",
     "static/media/MilasCar.svg": "/static/media/MilasCar.f8f01d1003999b82f313b6d07033700c.svg",
     "static/media/peonyChoc.jpg": "/static/media/peonyChoc.fccd4e10eec072dcb0d7.jpg",
     "static/media/wordMap.webp": "/static/media/wordMap.ab8bced91c856fd9984c.webp",
@@ -50,6 +50,7 @@
     "static/media/geis.png": "/static/media/geis.815ff80b2fd6eee2f65a.png",
     "static/media/mapMarker.png": "/static/media/mapMarker.411b1508e8cad341e5c1.png",
     "static/media/iconBake.svg": "/static/media/iconBake.e5b30ecacd097686b6f3af695bda9018.svg",
+    "static/media/iconDesert.svg": "/static/media/iconDesert.bd4cdf055be65b78510c79017dace1d2.svg",
     "static/media/icons.svg": "/static/media/icons.ffe2ec8a595839f12bb7a8b5e1342f89.svg",
     "static/media/iconCake.svg": "/static/media/iconCake.77769b7551e8810f9d3377807ce143a2.svg",
     "static/media/iconBread.svg": "/static/media/iconBread.f5beb1c841211af28af75915667a1bc7.svg",
@@ -58,11 +59,11 @@
     "static/media/sunmoon.svg": "/static/media/sunmoon.ba3badc56e10b9748f6e20a1196d939d.svg",
     "index.html": "/index.html",
     "static/media/star-gold.svg": "/static/media/star-gold.93fc61e02fdb3cb9ad90ccc2dcff13fe.svg",
-    "main.f50eadf9.css.map": "/static/css/main.f50eadf9.css.map",
-    "main.ec244f98.js.map": "/static/js/main.ec244f98.js.map"
+    "main.5db7a65a.css.map": "/static/css/main.5db7a65a.css.map",
+    "main.0432e343.js.map": "/static/js/main.0432e343.js.map"
   },
   "entrypoints": [
-    "static/css/main.f50eadf9.css",
-    "static/js/main.ec244f98.js"
+    "static/css/main.5db7a65a.css",
+    "static/js/main.0432e343.js"
   ]
 }
