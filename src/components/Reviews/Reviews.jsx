@@ -33,13 +33,13 @@ export const Reviews = () => {
           onClick={leftTranslate}
           className={classnames(styles.buttonCarousel, styles.buttonLeft)}
         >
-          {'<'}
+          &laquo;
         </Button>
         <Button
           onClick={rightTranslate}
           className={classnames(styles.buttonCarousel, styles.buttonRight)}
         >
-          {'>'}
+          &raquo;
         </Button>
       </div>
     </section>

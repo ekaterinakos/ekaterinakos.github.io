@@ -2,9 +2,14 @@ import React from "react";
 import classnames from 'classnames';
 import styles from './styles.module.css';
 import intorImg from './img/desktop.webp';
-import intorImgMobile from './img/mob.webp';
+import intorImgMobile from './img/mobile.webp';
+import { useWindowScroll } from '../../hooks/useWindowScroll';
+
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 export const SectionHero = ({className}) => {
+  const { sticky } = useWindowScroll();
+
 
    return (
      <section className={classnames(styles.root, className)}>
@@ -21,6 +26,16 @@ export const SectionHero = ({className}) => {
          />
          <img src={intorImg} alt="img" />
        </picture>
+
+       <AnchorLink
+         offset="79"
+         href="#newDesserts"
+         className={classnames(styles.button, className, {
+           [styles.hidden]: sticky.isSticky,
+         })}
+       >
+         &#8659;
+       </AnchorLink>
      </section>
    );
 }

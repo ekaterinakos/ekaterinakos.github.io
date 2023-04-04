@@ -26,7 +26,7 @@ export const SectionPastries = () => {
         })}
         onClick={() => setfullSize(!fullSize)}
       >
-        {'V'}
+        &or;
       </Button>
     </section>
   );

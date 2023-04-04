@@ -39,9 +39,7 @@ export const SectionFeatures = () => {
           <span>
             <DesertIcon />
           </span>
-          <p className={styles.text}>
-            Large assortment of bakery <br /> and pastry products
-          </p>
+          <p className={styles.text}>Desserts For <br/> Every Season</p>
         </div>
       </div>
     </section>

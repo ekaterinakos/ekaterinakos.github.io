@@ -1,12 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import classnames from 'classnames';
 import styles from './styles.module.css';
 import { useState } from 'react';
 import { Button } from '../Button/Button';
 import useOnclickOutside from 'react-cool-onclickoutside';
 import { useContext } from 'react';
 import { ThemeContext } from '../ThemeContextProvider/ThemeContext';
+import classnames from 'classnames';
 
 export const NavMenu = ({ className }) => {
   const [open, setOpen] = useState(false);
@@ -40,27 +40,27 @@ export const NavMenu = ({ className }) => {
           theme === 'default' ? styles.dark : 'default'
         )}
       >
-        <li className={className}>
+        <li className={classnames(className, styles.navLink) }>
           <NavLink className={activeClass} to="/">
             home
           </NavLink>
         </li>
-        <li className={className}>
+        <li className={classnames(className, styles.navLink) }>
           <NavLink className={activeClass} to="/products">
             products
           </NavLink>
         </li>
-        <li className={className}>
+        <li className={classnames(className, styles.navLink) }>
           <NavLink className={activeClass} to="/location">
             location
           </NavLink>
         </li>
-        <li className={className}>
+        <li className={classnames(className, styles.navLink) }>
           <NavLink className={activeClass} to="/delivery">
             delivery
           </NavLink>
         </li>
-        <li className={className}>
+        <li className={classnames(className, styles.navLink) }>
           <NavLink className={activeClass} to="/recipes">
             recipes
           </NavLink>

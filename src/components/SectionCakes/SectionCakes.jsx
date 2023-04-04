@@ -15,7 +15,9 @@ export const SectionCakes = () => {
     <section className={styles.root}>
       <h2 className={styles.title}>Cakes</h2>
       <Products
-        className={classnames(styles.list, { [styles.fullSizeStyle]: fullSize })}
+        className={classnames(styles.list, {
+          [styles.fullSizeStyle]: fullSize,
+        })}
         productId={cakeProductId}
       />
       <Button
@@ -24,7 +26,7 @@ export const SectionCakes = () => {
         })}
         onClick={() => setfullSize(!fullSize)}
       >
-        {'V'}
+        &or;
       </Button>
     </section>
   );

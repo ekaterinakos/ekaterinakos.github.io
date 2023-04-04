@@ -21,8 +21,8 @@ export const SectionNewDesserts = () => {
   );
 
   return (
-    <section className={classnames(styles.root)}>
-      <h1 className={styles.title}>New Seasonal Desserts</h1>
+    <section id="newDesserts" className={classnames(styles.root)}>
+      <h2 className={styles.title}>New Seasonal Desserts</h2>
       <div className={styles.buttonConteiner}>
         <div className={styles.carouselInner}>
           <Products
@@ -35,13 +35,13 @@ export const SectionNewDesserts = () => {
           onClick={leftTranslate}
           className={classnames(styles.buttonCarousel, styles.buttonLeft)}
         >
-          {'<'}
+          &laquo;
         </Button>
         <Button
           onClick={rightTranslate}
           className={classnames(styles.buttonCarousel, styles.buttonRight)}
         >
-          {'>'}
+          &raquo;
         </Button>
       </div>
     </section>
