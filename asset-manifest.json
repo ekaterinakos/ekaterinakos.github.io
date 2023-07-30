@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b1df793.css",
+    "main.css": "/static/css/main.76bd2a4b.css",
     "main.js": "/static/js/main.1a8783b7.js",
     "static/media/mapImg.png": "/static/media/mapImg.4080d8ad2333ce05d627.png",
     "static/media/blueSprinkleCake.jpg": "/static/media/blueSprinkleCake.810acf7f23f12b83c47a.jpg",
@@ -66,11 +66,11 @@
     "static/media/flex_direction.svg": "/static/media/flex_direction.af1d28d5cc82492e7ff7f2a370f07caf.svg",
     "static/media/chevron_left.svg": "/static/media/chevron_left.11f7184846154a9f0354c00d29407dcd.svg",
     "static/media/arrow_left.svg": "/static/media/arrow_left.1add50664d6a53f349848e974402f744.svg",
-    "main.1b1df793.css.map": "/static/css/main.1b1df793.css.map",
+    "main.76bd2a4b.css.map": "/static/css/main.76bd2a4b.css.map",
     "main.1a8783b7.js.map": "/static/js/main.1a8783b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b1df793.css",
+    "static/css/main.76bd2a4b.css",
     "static/js/main.1a8783b7.js"
   ]
 }
