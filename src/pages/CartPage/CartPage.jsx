@@ -10,6 +10,7 @@ import { Product } from '../../components/Product/Product';
 import { Button } from '../../components/Button/Button';
 import { useReducer } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Header } from '../../components/Header/Header';
 
 const initialState = {
   name: '',
@@ -80,6 +81,7 @@ export const CartPage = () => {
 
   return (
     <div className={classnames(styles.root)}>
+      <Header/>
       <ul className={styles.cartList}>
         {productId.map((productId) => (
           <li className={styles.cartItem} key={productId}>

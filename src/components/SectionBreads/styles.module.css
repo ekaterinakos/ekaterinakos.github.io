@@ -1,5 +1,5 @@
 .root {
-    padding-bottom: 60px;
+    padding-bottom: 90px;
 }
 .hiddenStyle {
     max-height: 554px;
@@ -7,13 +7,19 @@
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 25px 0;
-   background-color: ghostwhite;
+    background-color: #4F378B;
+    color: #EADDFF;
 }
 
 .list {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 100px;
+}
+@media screen and (max-width: 767px) {
+.title {
+font-size: 1.8rem;
+}
 }

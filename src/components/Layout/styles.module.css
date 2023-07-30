@@ -39,7 +39,7 @@ a {
 
 .button {
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 2rem;
     position: absolute;
     z-index: 100;
     top: 0;
@@ -54,6 +54,10 @@ a {
 }
 .dark {
     background: var(--WaikawaGray);
+
+}
+.dark.root{
+    color: var(--Linen);
 }
 @media screen and (max-width:767px) {
     .button {

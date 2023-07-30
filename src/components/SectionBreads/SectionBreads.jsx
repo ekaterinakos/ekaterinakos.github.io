@@ -10,7 +10,7 @@ export const SectionBreads = () => {
   
  
     return (
-      <section className={styles.root}>
+      <section id="breads" className={styles.root}>
         <h2 className={styles.title}>Breads</h2>
         <Products className={styles.list} productId={breadProductsId} />
       </section>

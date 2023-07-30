@@ -9,13 +9,15 @@ import { SectionFeatures } from '../../components/SectionFeatures/SectionFeature
 import { Reviews } from '../../components/Reviews/Reviews';
 
 import { SectionHero } from '../../components/SectionHero/SectionHero';
+import { Header } from '../../components/Header/Header';
 
 
 export const HomePage = () => {
 
   return (
     <div className={classnames(styles.root)}>
-      <SectionHero/>
+      <Header className={styles.header} />
+      <SectionHero />
       <SectionNewDesserts />
       <SectionFeatures />
       <SectionCakes />

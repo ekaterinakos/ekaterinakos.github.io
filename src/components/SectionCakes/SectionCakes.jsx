@@ -6,13 +6,14 @@ import { selectCakes } from '../../store/category/selectors';
 import { Products } from '../Products/Products';
 import { Button } from '../Button/Button';
 import { useState } from 'react';
+import IconDown from './img/flex_direction.svg';
 
 export const SectionCakes = () => {
   const cakeProductId = useSelector(selectCakes);
   const [fullSize, setfullSize] = useState(false);
 
   return (
-    <section className={styles.root}>
+    <section id="cakes" className={styles.root}>
       <h2 className={styles.title}>Cakes</h2>
       <Products
         className={classnames(styles.list, {
@@ -26,7 +27,7 @@ export const SectionCakes = () => {
         })}
         onClick={() => setfullSize(!fullSize)}
       >
-        &or;
+        <img src={IconDown} alt="IconDown" />
       </Button>
     </section>
   );

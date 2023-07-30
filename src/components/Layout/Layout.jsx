@@ -17,7 +17,7 @@ export const Layout = ({ children }) => {
         theme === 'default' ? styles.dark : 'default'
       )}
     >
-      <Header />
+
       <Theme className={styles.button}
         onClick={() => setTheme(theme === 'default' ? 'dark' : 'default')}
       />

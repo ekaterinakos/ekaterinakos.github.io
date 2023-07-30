@@ -45,13 +45,23 @@
     url('./fonts/rochester-v18-latin-regular.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+/* rammetto-one-regular - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Rammetto One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/rammetto-one-v15-latin_latin-ext-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
 
 :root {
-  --Linen: #f8e8d8;
-  --WaikawaGray: #616E9A;
+  --Linen: #FFFBFE;
+  --WaikawaGray: #1C1B1F;
   --Nugget: #CB9821;
-  --Cedar: #73301c;
+  --Cedar:#1C1B1F;
   --IndianRed: #7c4231;
   --MexicanRed: #ef717a;
   --BlueWhale: #032A49;
@@ -59,7 +69,7 @@
   --Tacao:#EFB38B;
   --Violet: #0B0F3A;
   --Cranberry: #DB6885;
-  --Turbo: #fff000;
+  --Turbo: #efc809;
   --MandysPink:#F1CDAA;
   --DesertStorm: #F3F3F1;
 
@@ -79,7 +89,7 @@ body {
   margin: 0;
   height: 100%;
   background-color: var(--Linen);
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-family: 'Noto Sans', 'Oswald', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -97,4 +107,9 @@ button{
 }
 h2{
   font-weight: 400;
+}
+@media screen and (max-width: 767px) {
+body{
+  font-size: 1.4rem;
+}
 }

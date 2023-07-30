@@ -7,6 +7,7 @@ import { useSlide } from '../../hooks/useSlide';
 import styles from './styles.module.css';
 import classnames from 'classnames';
 import { ReviewForm } from '../ReviewForm/ReviewForm';
+import IconSlide from './img/chevron_left.svg';
 
 export const Reviews = () => {
   const reviewIds = useSelector(selectReviewIds);
@@ -33,13 +34,13 @@ export const Reviews = () => {
           onClick={leftTranslate}
           className={classnames(styles.buttonCarousel, styles.buttonLeft)}
         >
-          &laquo;
+          <img src={IconSlide} alt="IconDown" />
         </Button>
         <Button
           onClick={rightTranslate}
           className={classnames(styles.buttonCarousel, styles.buttonRight)}
         >
-          &raquo;
+          <img className={styles.right} src={IconSlide} alt="IconDown" />
         </Button>
       </div>
     </section>

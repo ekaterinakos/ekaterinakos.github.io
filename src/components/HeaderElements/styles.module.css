@@ -3,7 +3,7 @@
 }
 .navItem {
     justify-self: start;
-    margin-right: 15px;
+    
 }
 .button {
     color: var(--Linen);
@@ -23,8 +23,8 @@
     width: 25px;
     height: auto;
     border-radius: 50%;
-    background-color: var(--Linen);
-    color: var(--IndianRed);
+    background-color: #ffd8e4;
+    color: #da6570;
     font-weight: 700;
 }
 @media screen and (max-width: 767px) {

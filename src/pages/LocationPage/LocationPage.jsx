@@ -4,6 +4,7 @@ import { DistanceMatrixService, useJsApiLoader } from '@react-google-maps/api';
 import { Map } from '../../components/Map/Map';
 // import { Autocomplete } from '../../components/Autocomplete/Autocomplete';
 import imgMap from './img/mapImg.png';
+import { Header } from '../../components/Header/Header';
 
 export const LocationPage = () => {
   const API_KEY = process.env.REACT_APP_API_KEY;
@@ -23,7 +24,11 @@ export const LocationPage = () => {
 
   return (
     <section className={styles.root}>
+      <Header />
       <h3>Our Location</h3>
+      <div className={styles.map}>
+        {isLoaded ? <Map center={center} /> : <h3>Loading...</h3>}
+      </div>
       <div className={styles.wrapper}>
         <div className={styles.tableWrapper}>
           <table className={styles.table}>
@@ -55,9 +60,6 @@ export const LocationPage = () => {
         </div>
       </div>
       {/* < Autocomplete isLoaded={isLoaded} /> */}
-      <div className={styles.map}>
-        {isLoaded ? <Map center={center} /> : <h3>Loading...</h3>}
-      </div>
     </section>
   );
 };

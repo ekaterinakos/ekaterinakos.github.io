@@ -1,7 +1,7 @@
 .root {
     padding: 5rem 10rem 9rem 10rem;
-    background-color: var(--IndianRed);
-    color: ghostwhite;
+    background-color: #4B3D6F;
+    color: #FFFFFF;
 
 }
 .conteiner {
@@ -46,7 +46,7 @@
 }
 
 .dark {
-    background-color: var(--BlueWhale);
+    background-color: #1C1B1F;
 }
 
 .form {

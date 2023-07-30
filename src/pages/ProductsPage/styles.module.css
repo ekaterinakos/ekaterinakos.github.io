@@ -44,7 +44,7 @@
     border-radius: 25px;
     transition: all 200ms ease;
     cursor: text;
-  margin: 30px 0;
+  margin: 80px 0 30px 0;
 }
 
 .search::after {

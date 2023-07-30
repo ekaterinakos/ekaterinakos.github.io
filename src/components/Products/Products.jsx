@@ -19,7 +19,7 @@ export const Products = ({ productId, className, style,title=false }) => {
 
   return (
     <>
-      {title ? <h2>{category.name}</h2> : null}
+      {title ? <h2 className={styles.title}>{category.name}</h2> : null}
 
       <ul
         style={style}

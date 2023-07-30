@@ -3,11 +3,13 @@ import classnames from 'classnames';
 import cookiesImg from './img/ChocolateChipCookies.jpg';
 import cookiesImgZoomIn from './img/ChocolateChipCookiesZoomIn.jpg';
 import ChocolateChipCookiesOrange from './img/ChocolateChipCookiesOrange.jpg';
+import { Header } from '../../components/Header/Header';
 
 
 export const RecipesPage = () => {
   return (
     <section className={styles.root}>
+      <Header/>
       <h2>The best recipes every week </h2>
       <h3>Chocolate Chip Cookies</h3>
       <div className={styles.imgWrapper}>

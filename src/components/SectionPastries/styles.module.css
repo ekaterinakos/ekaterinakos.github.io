@@ -1,18 +1,24 @@
 .root {
-    padding-bottom: 30px;
+    padding-bottom: 90px;
 }
 .root .list {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 100px;
-    max-height: 554px;
+    max-height: 523px;
     overflow: hidden;
     transition: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 .button {
-    padding: 10px 17px;
+    padding: 14px;
     font-weight: 700;
+    border-radius: 8px;
+        width: 5.2rem;
+        height: 5rem;
+        background: #FFD8E4;
+        box-shadow: 0px 1px 1px 0px rgba(169, 166, 168, 0.72);
+        border: none;
 }
 .button:hover~.list {
 
@@ -30,8 +36,13 @@
     transform: rotate(180deg);
 }
 .title {
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 25px 0;
-    background-color: ghostwhite;
-    color: #ca7c53;
+    background-color:#4F378B;
+    color: #EADDFF;
+}
+@media screen and (max-width: 767px) {
+    .title {
+        font-size: 1.8rem;
+    }
 }

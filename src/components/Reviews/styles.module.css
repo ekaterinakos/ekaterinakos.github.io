@@ -1,10 +1,11 @@
 .root {
-    padding: 60px 0;
+    padding: 130px 0;
     background-image: url(./img/pattern-bg.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-color: rgba(33, 0, 93, 0.42);
 }
 
 .carouselInner {
@@ -32,19 +33,22 @@
     margin: 15px;
     padding: 20px;
     box-shadow: 0 0 15px rgb(0 0 0 / 12%);
-    background-color: oldlace;
-    border-radius: 20px;
+    background-color:#FFFBFE;
+    border-radius: 16px;
 }
 
 .reviewButton {
     display: block;
-   margin-left: auto;
-    background-color: rgba(248, 232, 216, 0.6);   
+   margin-left: 84%;
+    background-color: rgb(255, 255, 255);   
+    border: none;
   }
     
-  
+  .right{
+    transform: rotate(180deg);
+  }
   .carouselConteiner {
-        position: relative;
+       position: relative;
         margin: 0 auto;
         max-width: 1200px;
     
@@ -55,11 +59,11 @@
     }
     
     .buttonLeft {
-        left: 0;
+        left: 30px;
     }
     
     .buttonRight {
-        right: 0;
+        right: 35px;
     
     }
         @media screen and (min-width:1200px) {
@@ -71,10 +75,20 @@
                 display: block;
                 position: absolute;
                 top: 35%;
-                padding: 10px 17px;
+                padding: 14px;
                 font-weight: 700;
-                background-color: rgba(248, 232, 216, 0.6);
+                border-radius: 100px;
+                    width: 5.2rem;
+                    height: 5rem;
+                    background: #ffffff;
+                    border-radius: 1px solid rgb(34, 34, 34);
+                    border: none;
             }
     
     
         }
+                @media screen and (max-width: 767px) {
+                    .reviewButton {
+                        margin-left: 1rem;
+                    }
+                }

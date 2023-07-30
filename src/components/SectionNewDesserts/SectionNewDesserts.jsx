@@ -9,6 +9,8 @@ import {
 import { Products } from '../Products/Products';
 import { Button } from '../Button/Button';
 import { useSlide } from '../../hooks/useSlide';
+import IconDown from './img/arrow_left.svg';
+
 
 export const SectionNewDesserts = () => {
   const categoryId = useSelector(selectNewProducts);
@@ -35,13 +37,13 @@ export const SectionNewDesserts = () => {
           onClick={leftTranslate}
           className={classnames(styles.buttonCarousel, styles.buttonLeft)}
         >
-          &laquo;
+          &#8249;
         </Button>
         <Button
           onClick={rightTranslate}
           className={classnames(styles.buttonCarousel, styles.buttonRight)}
         >
-          &raquo;
+          &#8250;
         </Button>
       </div>
     </section>

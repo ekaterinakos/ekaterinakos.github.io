@@ -24,7 +24,7 @@ export const SectionFeatures = () => {
             <CakeIcon />
           </span>
           <p className={styles.text}>
-            Large assortment of bakery <br /> and pastry products
+            Large assortment of bakery and pastry products
           </p>
         </div>
         <div className={styles.item}>

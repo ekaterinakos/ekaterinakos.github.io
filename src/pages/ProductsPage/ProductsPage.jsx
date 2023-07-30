@@ -6,6 +6,7 @@ import { useSelector } from 'react-redux';
 import { useSearchParams } from 'react-router-dom';
 import { useDebouncedCallback } from 'use-debounce';
 import { selectProductSearchName } from '../../store/category/selectors';
+import { Header } from '../../components/Header/Header';
 
 export const InputWithDebounce = ({
   initialValue,
@@ -49,11 +50,12 @@ export const ProductsPage = () => {
 
   return (
     <div className={classnames(styles.root)}>
+      <Header />
       <label
         className={classnames(styles.search, { [styles.isActive]: active })}
       >
         <InputWithDebounce
-          placeholder={active? "cake...": null}
+          placeholder={active ? 'cake...' : null}
           onFocus={() => setActive(true)}
           onBlur={() => setActive(false)}
           initialValue={search.get('productName') || ''}

@@ -25,7 +25,7 @@ export const Product = ({ productId, className }) => {
   return (
     <div className={classnames(styles.root, className)}>
       <img alt={product.name} src={product.image} />
-      <h3>{product.name}</h3>
+      <h3 className={styles.title}>{product.name}</h3>
       <div>
         <aside className={styles.cartButtonConteiner}>
           <Button

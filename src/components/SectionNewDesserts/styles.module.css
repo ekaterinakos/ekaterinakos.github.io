@@ -20,11 +20,11 @@
     transition: all 0.6s cubic-bezier(0, .19, .71, .98);
 }
 .title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 0;
     padding: 25px 0;
-    color: var(--Tacao);
-    background-color: ghostwhite;
+    background-color: #4F378B;
+    color: #EADDFF;
 }
 .buttonConteiner {
     max-width: 1300px;
@@ -32,15 +32,21 @@
     position: relative;
     padding: 60px 10px;
 }
-
+.left{
+    transform: rotate(180deg);
+}
 .buttonCarousel {
+    text-align: center;
     position: absolute;
     top: 45%;
-    font-size: 3rem;
-    background-color: transparent;
-    box-shadow: none;
-    border: none;
-    padding: 14px 24px;
+    padding: 14px;
+    font-size: 2rem;
+    font-weight: 700;
+        border-radius: 8px;
+        width: 5.2rem;
+        background: #FFD8E4;
+        box-shadow: 0px 1px 1px 0px rgba(169, 166, 168, 0.72);
+        border: none;
      transition: .6s ease;
 }
 
@@ -54,9 +60,11 @@
 
 .buttonRight {
     right: 0;
+    color: var(--WaikawaGray);
 }
 .buttonLeft {
     left: 0;
+    color: var(--WaikawaGray);
 }
 @media screen and (max-width:800px) {
 .buttonCarousel{
@@ -71,5 +79,10 @@
 @media screen and (min-width:1200px) {
     .carouselInner {
         max-width: 1111px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .title {
+        font-size: 1.8rem;
     }
 }

@@ -2,20 +2,102 @@
     position: relative;
 }
 .root img {
-    height: auto;
     width: 100%;
+    margin: 0;
 
 }
+.foto{
+    position: relative;
+    flex-basis: 60%;
+}
+.cakesLinkConteiner{
+    position: absolute;
+    top: 14vw;
+    left: 18vw;
+    transform: rotate(341deg);
+}
+.cakes{
+    font-family: 'Rammetto One';
+    font-size: 7rem;
+    color: var(--MexicanRed);
+}
+.breadsLinkConteiner {
+    position: absolute;
+    top: 36vw;
+    left: 41vw;
+    transform: rotate(351deg);
+}
+
+.breads {
+    font-family: 'Rammetto One';
+    font-size: 5rem;
+    color: #eee2c9;
+}
+.pastriesLinkConteiner {
+    position: absolute;
+    top: 7vw;
+    left: 33vw;
+    transform: rotate(16deg);
+}
+
+.pastries {
+    font-family: 'Rammetto One';
+    font-size: 4rem;
+    color: #cd621c;
+}
+.logo{
+    margin: 2rem auto;
+    width: 180px;
+    height: auto;
+    align-self: flex-start;
+    flex-grow: 1;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  
+}
+.text{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    flex-direction: column;
+    margin: auto 0;
+    flex-basis: 40%;
+    text-align: left;
+
+}
+.title{
+    display: inline-block;
+    margin: 3rem 0 1rem 0;
+    color: #4B3D6F;
+    font-family: 'Rammetto One';
+    font-size: 7rem;
+    line-height: 110%;
+    max-width: 600px;
+    padding-left: 1.4rem;
+}
+.text p{
+    max-width: 440px;
+    font-size: 2rem;
+    line-height: 160%;
+    padding-left: 2rem;
+}
 .button{
-background-color: var(--Linen);
-border-radius: 20px;
-padding: 17px 10px;
+flex-shrink: 0;
 position: absolute;
-font-weight: 700;
-font-size: 2.5rem;
 top: 76%;
-right: 100px;
-box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+right: 0;
+border-radius: 8px;
+padding: 14px;
+width: 5.2rem;
+height: 5rem;
+background: #FFD8E4;
+box-shadow: 0px 1px 1px 0px rgba(169, 166, 168, 0.72);
+}
+.button img{
+    width: 100%;
 }
 .button:hover {
     background-color: var(--MexicanRed);
@@ -36,13 +118,120 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 
         }
 }
 
-@media screen and (max-width: 767px) {
-
-    .button {
-        width: 36px;
-        height: 75px;
-        padding-top: 27px;
-        top: 65%;
-        left: 46%;
+@media screen and (max-width: 1440px){
+    .text{
+        height: auto;
     }
+.logo{
+    width: 140px;
+    flex-grow: 0;
+}
+.title{
+    font-size: 5rem;
+}
+.text p {
+    font-size: 1.8rem;
+}
+
+}
+@media screen and (max-width: 1280px){
+.cakes {
+        font-size: 5rem;
+    }
+    .breads{
+        font-size: 4rem;
+
+    }
+    .pastries{
+font-size: 3rem;
+    }
+}
+@media screen and (max-width: 1100px) {
+
+    .intro{
+        margin-top: 80px;
+        display: block;
+    }
+        .text {
+            align-items: center;
+            text-align: center;
+        }
+        .logo{
+           width: 100px;
+        }
+        .text{
+                    padding: 0;
+        }
+                   .text p {
+                       padding: 0;
+                   }
+ .pastriesLinkConteiner {
+        top: -69vw;
+        left: 61vw;
+ }
+  .cakesLinkConteiner {
+            top: -57vw;
+                left: 35vw;
+  }
+   .breadsLinkConteiner {
+            top: -21vw;
+            left: 73vw;
+   }
+
+
+}
+@media screen and (max-width: 767px) {
+    .cakes {
+            font-size: 3.5rem;
+        }
+    
+        .breads {
+            font-size: 2.5rem;
+    
+        }
+    
+        .pastries {
+            font-size: 2rem;
+        }
+
+   
+    .intro{
+        margin: 0;
+
+    }
+        .title {
+            font-size: 3rem;
+        }
+    
+        .text p {
+            font-size: 1.6rem;
+        }
+                 .button{
+                    top:90%;
+                    left: 45%;
+                    transform: scale(0.9);
+                 }
+   }              
+.dark .title{
+    color: #FFD8E4;
+}
+.dark .text{
+    color: #FFFBFE;
+}
+
+@media screen and (max-width: 457px) {
+  .pastriesLinkConteiner {
+      top: -74vw;
+      left: 53vw;
+  }
+
+  .cakesLinkConteiner {
+      top: -61vw;
+      left: 25vw;
+  }
+
+  .breadsLinkConteiner {
+      top: -25vw;
+      left: 63vw;
+  }
 }
