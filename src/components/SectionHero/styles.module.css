@@ -18,8 +18,8 @@
 }
 .cakes{
     font-family: 'Rammetto One';
-    font-size: 7rem;
-    color: var(--MexicanRed);
+    font-size: 6rem;
+    color: #9d7570;
 }
 .breadsLinkConteiner {
     position: absolute;
@@ -31,7 +31,7 @@
 .breads {
     font-family: 'Rammetto One';
     font-size: 5rem;
-    color: #eee2c9;
+    color: #d6cdba;
 }
 .pastriesLinkConteiner {
     position: absolute;
@@ -43,7 +43,7 @@
 .pastries {
     font-family: 'Rammetto One';
     font-size: 4rem;
-    color: #cd621c;
+    color:#fff4e0;
 }
 .logo{
     margin: 2rem auto;

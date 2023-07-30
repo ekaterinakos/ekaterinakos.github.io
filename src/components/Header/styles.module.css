@@ -30,4 +30,8 @@
     .flex {
         flex-direction: column;
     }
+        .conteiner {
+           margin-left: -8px;
+           width: auto;
+        }
 }
